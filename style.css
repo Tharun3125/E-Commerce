@@ -1,0 +1,769 @@
+.nav{
+    background-color:white;
+    padding:10px;
+    padding-left:35px;
+    padding-right:35px;
+    z-index:9;
+    display:flex;
+    box-shadow:0px 0px 65px 3px rgba(0,0,0,.15);
+}
+.nav_top{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+}
+.logo{
+    float:left;
+    width:50%;
+}
+.logo img{
+    padding:10px;
+}
+.nav_items{
+    float:right;
+    width:50%;
+    margin-top:25px;
+    margin-left: 400px;
+}
+.nav_items a{
+    text-decoration:none;
+    margin-top:50px;
+    margin-right:20px;
+    font-weight:bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    justify-content:center;
+    align-items:center;
+    align-content:center;
+    text-align:center;
+}
+.nav_items a:hover{
+    color:orange;
+    text-decoration:none;
+    transition:all 1s ease;
+}
+.main{
+    background-image: url('main.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment:auto;
+    height: 80vh;
+}
+.main .main_content{
+    padding-top:9%;
+    margin-left:10%;
+    margin-right:10%;
+}
+.main .main_content h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size:40px;
+    color:black;
+    line-height:30px;
+}
+.main .main_content h2 span{
+    margin-top:10px;
+    font-size: 17px;
+    font-weight: lighter;
+    line-height :20px;
+    opacity :0.9; /*text thickness 0-nothing 1-full thickness*/
+}
+.main .main_content .btn{
+    margin:10px;
+    margin-left:45%;
+    padding:12px;
+    margin-top:60px;
+    
+}
+.main .main_content .btn a{
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius:8px;
+    background-color: rgb(243, 156, 75);
+    color:black;
+    transition:0.5s;
+    text-align: center;
+}
+.main .main_content .btn a:hover{
+    border:2px solid rgb(178, 91, 218);
+    border-bottom: 2px solid white;
+    background-color: rgb(178, 91, 218);
+    color:white;
+    transition:0.5s;
+}
+.product{
+    padding: 10px;
+}
+.product h2{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding:12px;
+}
+.product .product_container{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 50px;
+}
+.product .product_container .it{
+    width : 33.33%;
+    margin: 5px;
+    height: auto;
+}
+.product .product_container .it:hover{
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15);
+}
+.product .product_container .it .it_img{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+.product .product_container .it .it_img img{
+    width: 100%;
+    height: 250px;
+}
+.product .product_container .it .it_content{
+    text-align: center;
+}
+.product .product_container .it .it_content h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+}
+.product .product_container .it .it_content p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.product .product_container .it .it_content a{
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius:8px;
+    background-color: rgb(243, 156, 75);
+    color:black;
+    transition:0.5s;
+    text-align: center;
+}
+.product .product_container .it .it_content a:hover{
+    border:2px solid rgb(178, 91, 218);
+    border-bottom: 2px solid white;
+    background-color: rgb(178, 91, 218);
+    color:white;
+    transition:0.5s;
+}
+.product .product_btn{
+    text-align: center;
+    margin-top : 35px;
+}
+.product .product_btn a{
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius:8px;
+    background-color: rgb(243, 156, 75);
+    color:black;
+    transition:0.5s;
+    text-align: center;
+}
+.product .product_btn a:hover{
+    border:2px solid rgb(178, 91, 218);
+    border-bottom: 2px solid white;
+    background-color: rgb(178, 91, 218);
+    color:white;
+    transition:0.5s;
+}
+.keypoint{
+    padding: 50px;
+}
+.keypoint h2{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 15px;
+}
+.keypoint .keypoint_container{
+    display: flex;
+}
+.keypoint .keypoint_container .keypoint_content{
+     width : 40%;
+     padding: 20px;
+     float: left;
+}
+.keypoint .keypoint_container .keypoint_content li{
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    border-left: 2px solid orange;
+    color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15);
+}
+.keypoint .keypoint_container .key_img{
+    width: 40%;
+    float: right;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.keypoint .keypoint_container .key_img img{
+    width: 100%;
+    height: 50%;
+}
+.testi{
+    margin-top: -22%;
+    padding: 50px;
+}
+.testi h2{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+}
+.testi .testi_container{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+.testi .testi_container .carousel-inner{
+    background-color: white;
+    box-shadow: none;
+}
+.testi .testi_container .it_active{
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: none;   
+}
+.testi .testi_container .item .it_img{
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+}
+.testi .testi_container .item .it_img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.testi .testi_container .item .it_cont{
+    text-align: center;
+}
+.testi .testi_container .item .it_cont h3{
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+}
+.testi .testi_container .item .it_cont p{
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.team{
+    margin-top:-6%;
+    padding: 50px;
+}
+.team h2{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+}
+.team .team_container{
+    display: flex;
+}
+.team .team_container .team_video{
+    width: 50%;
+    padding: 20px;
+}
+.team .team_container .team_video video{
+    width: 100%;
+    border: 5px solid orange;
+    outline: none;
+}
+.team .team_container .team_content{
+    width: 40%;
+    padding: 20px;
+    margin-left: 15px;
+}
+.team .team_container .team_content p{
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.feed{
+    background-image: url('fd.jpg');
+    background-size: cover;
+}
+.feed h2{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+}
+.feed .feed_form{
+    text-align: center;
+}
+.feed .feed_form form{
+    padding: 15px;
+}
+.feed .feed_form form input{
+    width: 30%;
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+.feed .feed_form form textarea{
+    width: 30%;
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+.feed .feed_form form button{
+    background-color:rgb(189, 149, 226);
+    color: white;
+    border: none;
+    outline: none;
+    padding: 15px;
+    width: 30%;
+    border-radius: 5px;
+}
+.feed .feed_form form button:hover{
+    background-color:rgb(235, 169, 103);
+    color: white;
+    border: none;
+    outline: none;
+    padding: 15px;
+    width: 30%;
+    border-radius: 5px;
+}
+.blog{
+    padding: 100px;
+    margin-bottom: -33%;
+}
+.blog h2{
+    color: orange;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+}
+.blog .blog_container{
+    display: flex;
+}
+.blog .blog_container .blog_content{
+    width: 40%;
+    height: 100%;
+    padding: 10px;
+    border-left: 5px solid orange;
+    border-radius: 10px;
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15);
+}   
+.blog .blog_container .blog_content p{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.blog .blog_container .blog_pic{
+    width: 60%;
+    padding: 10px;
+    margin-left: 15px;
+}
+.blog .blog_container .blog_pic img{
+    width: 100%;
+    padding: 10px;
+    border-left: 5px solid orange;
+    border-radius: 10px;
+    height:40%;
+    
+}
+.about_us{
+    padding: 100px;
+}
+.about_us h2{
+    color: orange;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+}
+.about_us p{
+    text-align: center;
+    line-height: 30px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.contact_container{
+    padding: 100px;
+}
+.contact_container h2{
+    color: orange;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+}
+.contact_container .g_map{
+    border: 5px solid orange;
+}
+.contact_container .contact_content{
+    padding: 20px;
+}
+.contact_container .contact_content p{
+    line-height: 10px;
+    margin-top: 35px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.log{
+    padding: 100px;
+    width: 50%;
+}
+.log .log_container{
+    width: 100%;
+    margin-left: 70%;
+    border-left: 5px solid orange;
+    border-radius: 10px;
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15);
+}
+.log .log_container h2{
+    color: orange;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+}
+.log .log_container .log_details{
+    text-align: center;
+}
+.log .log_container .log_details form input{
+    padding: 15px;
+    outline: none;
+    border:none;
+    border-left:2px solid orange;
+    box-shadow: 2px 2px 12px darkgrey;
+    border-radius: 10px;
+    font-size: medium;
+}
+.log .log_container .log_details form input:focus{
+    border-left:2px solid blue;
+}
+.log .log_container .log_details form button{
+    border: none;
+    outline: none;
+    width: 50%;
+    padding: 15px;
+    font-size: medium;
+    background-color: rgb(174, 129, 215);
+    border-radius: 10px;
+    color: white;
+}
+.log .log_container .log_details form button:hover{
+    border: none;
+    outline: none;
+    width: 50%;
+    padding: 15px;
+    font-size: medium;
+    background-color: rgb(235, 169, 103);
+    border-radius: 10px;
+    color: white;
+}
+.log .log_container p{
+    text-align: center;
+    font-weight: bold;
+    line-height: 10px;
+    margin-top: 35px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.log .log_container p a{
+    color: orange;
+    text-decoration: none;
+}
+.log .log_container p a:hover{
+    color: blue;
+    text-decoration: none;
+}
+.register{ 
+    padding: 100px;
+}
+.register .register_container{
+    width: 50%;
+    margin-left: 250px;
+    border-left: 5px solid orange;
+    border-radius: 10px;
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15);
+}
+.register .register_container h2{
+    color: orange;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+}
+.register .register_container .register_form{
+    text-align: center;
+}
+.register .register_container .register_form form input{
+    padding: 15px;
+    width: 80%;
+    outline: none;
+    border:none;
+    border-left:3px solid orange;
+    box-shadow: 2px 2px 12px darkgrey;
+    border-radius: 10px;
+    font-size: medium;
+}
+.register .register_container .register_form form input:focus{
+    border-left :3px solid blue;
+}
+.register .register_container .register_form form select{
+    padding: 15px;
+    width: 80%;
+    outline: none;
+    border: none;
+    border-left: 3px solid orange;
+    box-shadow: 2px 2px 12px darkgrey;
+    border-radius: 10px;
+    font-size: medium;
+}
+.register .register_container .register_form form select:focus{
+    border-left: 3px solid blue;
+}
+.register .register_container .register_form form textarea{
+    padding: 15px;
+    width: 80%;
+    outline: none;
+    border:none;
+    border-left:3px solid orange;
+    box-shadow: 2px 2px 12px darkgrey;
+    border-radius: 10px;
+    font-size: medium;
+}
+.register .register_container .register_form form textarea:focus{
+    border-left:3px solid blue;
+}
+.register .register_container .register_form form button{
+    padding: 20px;
+    margin: 25px;
+    font-size: medium;
+    border:none;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(174, 129, 215);
+}
+.register .register_container .register_form form button:hover{
+    padding: 20px;
+    margin: 25px;
+    font-size: medium;
+    border:none;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(235, 169, 103);
+}
+footer{
+    background-color:rgb(215, 215, 215);
+    padding: 50px;
+}
+footer .pages{
+    text-align: center;
+}
+footer .pages h3{
+    color: black;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+}
+footer .pages a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: orange;
+    margin: 10px;
+}
+footer .pages a:hover{
+    color: white;
+}
+footer .doc{
+    text-align: center;
+}
+footer .doc h3{
+    color: black;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+}
+footer .doc a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: orange;
+    margin: 10px;
+}
+footer .doc a:hover{
+    color: white;
+}
+footer .social{
+    text-align: center;
+}
+footer .social h3{
+    color: black;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+}
+footer .social a{
+    text-decoration: none;
+    font-size: 30px;
+    color: orange;
+    margin: 10px;
+}
+footer .social a:hover{
+    color: white;
+}
+footer .contact{
+    text-align: center;
+}
+footer .contact h3{
+    color: black;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+}
+footer .contact a{
+    text-decoration: none;
+    font-size: 30px;
+    color: orange;
+    margin: 10px;
+}
+footer .contact a:hover{
+    color: white;
+}
+.adr{ 
+    margin-bottom: -7%;
+    padding: 100px;
+}
+.adr .adr_container{
+    width: 50%;
+    margin-left: 250px;
+    border-left: 5px solid #80ccff;
+    border-radius: 10px;
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15);
+}
+.adr .adr_container h2{
+    color: #007acc;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+}
+.adr .adr_container .adr_form{
+    text-align: center;
+}
+.adr .adr_container .adr_form form input{
+    padding: 15px;
+    width: 80%;
+    outline: none;
+    border:none;
+    border-left: 3px solid #ccebff;
+    box-shadow: 2px 2px 12px darkgrey;
+    border-radius: 10px;
+    font-size: medium;
+}
+.adr .adr_container .adr_form form input:focus{
+    border-left :3px solid #589fcf;
+}
+.adr .adr_container .adr_form form select{
+    padding: 15px;
+    width: 80%;
+    outline: none;
+    border: none;
+    border-left: 3px solid #ccebff;
+    box-shadow: 2px 2px 12px darkgrey;
+    border-radius: 10px;
+    font-size: medium;
+}
+.adr .adr_container .adr_form form select:focus{
+    border-left :3px solid #589fcf;
+}
+.adr .adr_container .adr_form form textarea{
+    padding: 15px;
+    width: 80%;
+    outline: none;
+    border:none;
+    border-left: 3px solid #ccebff;
+    box-shadow: 2px 2px 12px darkgrey;
+    border-radius: 10px;
+    font-size: medium;
+}
+.adr .adr_container .adr_form form textarea:focus{
+    border-left :3px solid #589fcf;
+}
+.adr .adr_container .adr_form form button{
+    padding: 20px;
+    margin: 25px;
+    font-size: medium;
+    border:none;
+    outline: none;
+    border-radius: 10px;
+    background-color: rgba(206, 227, 241, 0.75);
+    color:black;
+}
+.adr .adr_container .adr_form form button:hover{
+    padding: 20px;
+    margin: 25px;
+    font-size: medium;
+    border:none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #66c2ff;
+    color:white;
+}
+.thanks{
+    margin-bottom: -7%;
+    padding: 100px;
+}
+.thanks h1{
+    color: #007acc;
+    font-size:xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+}
+.thanks p{
+    text-align: center;
+    line-height: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+.thanks p a{
+    color: rgb(90, 133, 154);
+    text-decoration: none;
+}
+.thanks p a:hover{
+    color: #096bac;
+    text-decoration: none;
+}
